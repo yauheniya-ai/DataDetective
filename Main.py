@@ -25,7 +25,8 @@ st.code("""
 """, language="python")
 
 
-st.header("Germany 🇩🇪 vs. 🇯🇵 Japan")
+st.header("What indicator is being compared between Germany 🇩🇪 and Japan 🇯🇵 in this line chart?")
+
 
 tab1, tab2 = st.tabs(["Cryptic", "Decoded"])
 
