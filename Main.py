@@ -186,3 +186,35 @@ with col3:
         st.write("""
                 [Alternative Fuels Data Center (AFDC)](https://afdc.energy.gov/vehicle-registration)
                 """)
+        
+
+###################################################################################################################
+st.divider()
+st.header("Welche technologische Statistik wird in diesem Balkendiagramm zwischen verschiedenen Ländern verglichen?")
+
+with st.expander("Translate to English"):
+    st.success("Which technological statistic is being compared between different countries in this bar chart?")
+
+tab1, tab2, tab3 = st.tabs(["Cryptic", "Hint", "Decoded"])
+
+with tab1:
+    st.image("assets/question_github_fixed.png", width=800)
+with tab2:
+    st.image("assets/hint_github_fixed.png", width=800)
+with tab3:
+    st.image("assets/answer_github_fixed.png", width=800)
+
+
+col1, col2, col3 = st.columns(3)
+with col1:
+    if st.button("Win", key="win_06"):
+        st.balloons()
+with col2:
+    if st.button("Lose", key="lose_06"):
+        st.snow()
+with col3:
+    with st.expander("Data Sources"):
+        st.write("""
+                [reddit](https://www.reddit.com/r/dataisbeautiful/comments/1cliefe/the_economies_with_the_most_github_devs_per/)
+                """)
+        
